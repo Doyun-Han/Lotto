@@ -1,0 +1,17 @@
+@value fontlarge from '../../common/size.css';
+
+.img {
+    width: 10em;
+    height: 8.5em;
+}
+
+p {
+    margin: 0;
+    
+}
+
+.subTitle {
+    font-size: fontlarge;
+    font-weight: bold;
+    padding: 0.2em;
+}

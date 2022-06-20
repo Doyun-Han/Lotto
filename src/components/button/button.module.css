@@ -1,0 +1,15 @@
+@value fontlarge from '../../common/size.css';
+@value makerPink, makerWhite from '../../common/colors.css';
+
+button {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: fontlarge;
+    font-weight: bold;
+    background-color: makerPink;
+    color: makerWhite;
+    padding: 0.5em 2em;
+    border-radius: 0.5em;
+    margin: 0.7em 0;
+}
