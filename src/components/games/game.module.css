@@ -1,0 +1,59 @@
+@value makerPink from '../../common/colors.css';
+
+.container {
+    width: 20em;
+    height: 25em;
+    display: flex;
+    background-color: white;
+    margin: 2em;
+    border-radius: 0.5em;
+    -webkit-box-shadow: 10px 11px 5px -3px rgba(2,2,2,0.53); 
+box-shadow: 10px 11px 5px -3px rgba(2,2,2,0.53);
+}
+* {
+    text-align: center;
+}
+
+li {
+    text-align: left;
+}
+.title{
+    padding: 1.5em;
+    font-size: 3em;
+    margin: 0;
+}
+
+.num {
+    font-size: 1.1em;
+    padding: 0.4em;
+}
+
+.gametitle {
+    margin: 0 0.5em 0 1em;
+}
+
+.blank {
+    padding: 5px;
+}
+
+.symbol {
+    box-sizing: border-box;
+    margin-bottom: 1px;
+}
+.box {
+    flex-basis: 100%;
+}
+.sidetap {
+    box-sizing: border-box;
+    background-color: makerPink;
+    border : 2px solid makerPink;
+    width : 13px;
+    height :inherit;
+    border-radius: 0 0.5em 0.5em 0;
+}
+
+@media (max-width : 760px) {
+    * {
+        text-align: center;
+    }
+    }

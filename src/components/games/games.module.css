@@ -1,0 +1,31 @@
+@value makerLightGrey from '../../common/colors.css';
+ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.gameBoard {
+    background-color: makerLightGrey;
+    width: 50rem;
+    height: 29rem
+}
+
+.items {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width : 760px) {
+        .gameBoard {
+            text-align: center;
+            height: auto;
+        }
+        .items {
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+}

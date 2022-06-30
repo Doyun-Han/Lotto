@@ -1,5 +1,5 @@
 @value makerGreen, makerWhite from '../../common/colors.css';
-@value fontsmall from '../../common/size.css';
+@value fontmicro from '../../common/size.css';
 .container {
     box-sizing: border-box;
     text-align: center;
@@ -9,10 +9,13 @@
 }
 .footer {
     color: makerWhite;
-    padding: 0.1em 0;
+    padding: 0.2em 0;
 }
 
 .right {
-    font-size: fontsmall;
+    font-size: fontmicro;
+    padding-top: 0.1em;
+    color: white;
     display: flex;
+    justify-content: right;
 }

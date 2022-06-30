@@ -1,0 +1,10 @@
+.container {
+    width: 50rem;
+    height: 100vh;
+}
+
+@media (max-width : 760px) {
+.container{
+    text-align: center;
+}
+}

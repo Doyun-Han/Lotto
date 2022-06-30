@@ -1,17 +1,36 @@
-import React from 'react';
+import { React } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { secondGame, randomGame, sortNum } from '../../data/data';
 import Button from '../button/button';
 import Footer from '../footer/footer';
 import Header from '../header/header';
 import Info from '../info/info';
-const Home = (props) => {
+
+const Home = ({addGame}) => {
     const navigate = useNavigate();
 
+    const setGame = () => {
+        let a = ''
+        let filternum = ''
+        let b = ''
+        const data = [];
+        a = randomGame()
+        data.push(a);
+        filternum = sortNum(a);
+        b = secondGame(filternum);
+        data.push(b);
+        addGame(data)
+        gotoMain();
+    }
+
+    const gotoMain = () => {
+        navigate('/main')
+    }
     return(
         <>
         <Header />
         <Info />
-        <Button />
+        <Button setGame={setGame}/>
         <Footer />
         </>
     )

@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './button.module.css'
-const Button = (props) => (
+const Button = ({setGame}) => (
     <>
-        <button>추첨하기</button>
+        <button onClick={setGame}>추첨하기</button>
     </>
     );
 
