@@ -2,9 +2,9 @@
 
 export function randomGame() {
     const game1 = []
+    let dummy = [];
     for(let t = 0 ; t < 5 ; t++) {
         let b = [];
-        let dummy = [];
         for(let i = 0 ; i < 6 ; i++) {
             const a = Math.random();
             const randomnum = Math.floor((a*(46-1)) + 1);
@@ -19,6 +19,7 @@ export function randomGame() {
         game1.push(b);
         b = [];
     }
+    console.log(dummy);
     return game1
 }
 

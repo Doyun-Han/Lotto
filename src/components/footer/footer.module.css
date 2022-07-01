@@ -19,3 +19,12 @@
     display: flex;
     justify-content: right;
 }
+
+@media (max-width : 760px) {
+    .container{
+        text-align: center;
+    }
+    .right {
+        display: block;
+    }
+    }
