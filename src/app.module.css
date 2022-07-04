@@ -9,7 +9,10 @@ body {
   flex-direction: column;
   align-items: center;
   margin: auto;
-  background-color: white;
-  width: 25rem;
-  min-height: 30rem;
 }
+
+@media (max-width : 326px) {
+  .container{
+    width: 20em;
+  }
+  }

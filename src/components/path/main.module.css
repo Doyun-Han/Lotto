@@ -8,3 +8,13 @@
     text-align: center;
 }
 }
+
+@media (max-width : 326px) {
+    .container{
+        width: 20rem;
+        text-align: center;
+    }
+    .adfit{
+        text-align: center;
+    }
+    }

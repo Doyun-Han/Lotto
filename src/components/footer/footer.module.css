@@ -28,3 +28,9 @@
         display: block;
     }
     }
+
+    @media (max-width : 326px) {
+        .container{
+            text-align: center;
+        }
+        }
