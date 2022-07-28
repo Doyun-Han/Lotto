@@ -17,6 +17,7 @@ ul {
 }
 
 @media (max-width : 760px) {
+
         .gameBoard {
             text-align: center;
             height: auto;

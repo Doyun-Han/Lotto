@@ -14,5 +14,6 @@ body {
 @media (max-width : 326px) {
   .container{
     width: 20em;
+    text-align: center;
   }
   }

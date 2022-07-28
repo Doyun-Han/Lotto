@@ -1,5 +1,3 @@
-
-
 export function randomGame() {
     const game1 = []
     let dummy = [];

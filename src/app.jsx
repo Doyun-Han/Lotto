@@ -8,7 +8,7 @@ import {
 import Home from './components/path/home';
 import Main from './components/path/main';
 import { useState } from 'react';
-function App() {
+function App({round}) {
 
   const [game, setGame] = useState([])
   const addGame = (a) => {

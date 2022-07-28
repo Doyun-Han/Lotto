@@ -13,8 +13,7 @@
     .container{
         width: 20rem;
         text-align: center;
+        margin: auto;
     }
-    .adfit{
-        text-align: center;
-    }
+
     }
