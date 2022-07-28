@@ -11,4 +11,4 @@ I was too lazy to choose the lottery number every time, so I wanted to make a pr
 3. The remaining 15 numbers except for 30 numbers are allowed to be duplicated to draw 5 games of 6 each.
 
 ## What use in this program?
-* React, Javascript, PostCss, HTML
+* React, Javascript, PostCss, HTML!
